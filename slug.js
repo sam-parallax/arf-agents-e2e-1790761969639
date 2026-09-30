@@ -1,1 +1,1 @@
-export const slug = (value) => value.toLowerCase().replaceAll(' ', '-');
+export const slug = (value) => value.trim().toLowerCase().replaceAll(' ', '-');
